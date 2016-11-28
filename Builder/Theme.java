@@ -1,4 +1,4 @@
-package LevelBuilder;
+package Builder;
 
 import java.util.ArrayList;
 

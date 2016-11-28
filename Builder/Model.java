@@ -1,4 +1,4 @@
-package LevelBuilder;
+package Builder;
 
 import Player.Menu;
 
