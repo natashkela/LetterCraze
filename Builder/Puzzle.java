@@ -1,5 +1,5 @@
 package LevelBuilder;
 
-public class Board {
+public class Puzzle {
 
 }
