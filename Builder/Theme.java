@@ -8,7 +8,7 @@ public class Theme extends Level{
 	String theme;//theme name
 	ArrayList<String> words;//words used in theme
 	Board board;//needs its own board cause we create the themes
-	Theme(String title, int[] starThresh) {
+	Theme(String title, int[] starThresh, String theme, ArrayList<String> words, Board board) {
 		super(title, starThresh);
 		this.theme = theme;
 		this.words=words;

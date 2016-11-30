@@ -3,7 +3,7 @@ package Builder;
 public class Puzzle extends Level{
 	
 	int limit;//limit for the words
-	Puzzle(String title, int[] starThresh) {
+	Puzzle(String title, int[] starThresh, int limit) {
 		super(title, starThresh);
 		this.limit=limit;
 	}

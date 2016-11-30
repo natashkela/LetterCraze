@@ -2,10 +2,10 @@ package Builder;
 
 import java.util.ArrayList;
 
-import Player.Level;
-import Player.Lightening;
-import Player.Puzzle;
-import Player.Theme;
+import player.Level;
+import player.Lightening;
+import player.Puzzle;
+import player.Theme;
 
 public class Menu {
 	ArrayList<ArrayList<Level>> levels;//creates list of levels which is going to hold levels

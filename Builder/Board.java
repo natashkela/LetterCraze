@@ -1,5 +1,7 @@
 package Builder;
 
+import common.Tile;
+
 public class Board {
 	
 	Tile[][] tiles;//tiles on the board

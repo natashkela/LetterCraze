@@ -1,6 +1,6 @@
 package Builder;
 
-import Player.Menu;
+import player.Menu;
 
 public class Model {
 	Menu menu;

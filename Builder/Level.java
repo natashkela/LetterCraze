@@ -1,5 +1,8 @@
 package Builder;
 
+import common.Letter;
+import common.Tile;
+
 public class Level {
 	String title;
 	int[] starThresh;
@@ -44,7 +47,7 @@ public class Level {
 			return false;
 		}
 		else{
-			this.starThresh = starThresh;
+			this.starThresh = starThresholds;
 			return true;
 		}
 	}
