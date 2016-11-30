@@ -1,4 +1,4 @@
-package Player;
+package player;
 
 public class Puzzle extends Level{
 	int limit;//limit for the words

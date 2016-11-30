@@ -1,6 +1,9 @@
-package Player;
+package player;
 
 import java.util.ArrayList;
+
+import common.Letter;
+import common.Tile;
 
 public class Level {
 	

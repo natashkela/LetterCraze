@@ -1,4 +1,6 @@
-package Player;
+package player;
+
+import common.Tile;
 
 public class Board {
 	
@@ -18,8 +20,8 @@ public class Board {
 		}
 		
 		boolean setTile(Tile[][] tile){//boolean for setting tiles. if set return true, else return false
-			if((tiles.length == 6)&&(tiles[0].length == 6)){
-				this.tiles = tiles;
+			if((tile.length == 6)&&(tile[0].length == 6)){
+				this.tiles = tile;
 				return true;
 			}
 			else{ 

@@ -1,6 +1,8 @@
-package Player;
+package player;
 
 import java.util.ArrayList;
+
+import common.Tile;
 
 public class Word {
 	ArrayList<Tile> lettersSelected;
